@@ -1,0 +1,31 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>
+            Ionic Blank
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-item-divider color="primary">
+        First Question
+        <ion-icon (click)="onConvert()" style="font-size: 2em" slot="end" name="add"></ion-icon>
+    </ion-item-divider>
+    <ion-input style="margin-left: 5px" placeholder="Please enter string" [(ngModel)]="convertString"> </ion-input>
+    <ion-item *ngFor="let leet of leetOutput">
+        <ion-label text-wrap>
+            <ion-text text-wrap>
+                Actual - {{leet.actual}}
+            </ion-text>
+            <h3>Output - {{leet.leetValue}}</h3>
+        </ion-label>
+    </ion-item>
+    <ion-item-divider color="primary">
+        Second Question
+    </ion-item-divider>
+    <ion-item>
+        <ion-label text-wrap>
+            Result for Second question - {{outputString}}
+        </ion-label>
+    </ion-item>
+</ion-content>
