@@ -1,4 +1,4 @@
-# Wallmart-Technical-Evaluation-
+# Wallmart Technical Evaluation
 
 
 
@@ -14,4 +14,4 @@ Please follow he step to run program
 It will run the application ion browser. 
 
 
-Note: - Machine shoul;d be setup to with node.js and all other requirements to run ionic project
+Note: - Machine should be setup to with node.js and all other requirements to run ionic project
